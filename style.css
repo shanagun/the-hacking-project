@@ -1,0 +1,135 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+}
+header {
+    width: 100%;
+  }
+#navigation {
+    float: right;
+  }
+#navigation li {
+    display: inline-block;
+    padding: 8px;
+  }  
+#navigation #connexion {
+    background: #4887ef; 
+    margin-right: 25px;
+    padding: 7px 15px;
+    border-radius: 3px; 
+    font-weight: bold;
+    color: white;
+  }
+#logo {
+   display: block;
+   text-align: center;
+   margin: 0 auto;
+   padding-top: 200px;
+   padding-bottom: 10px;
+
+  }
+.recherche {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
+#bouttons {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
+#texte_recherche {
+    width: 500px;
+    line-height: 45px;
+    padding: 10px 10px;
+    border-radius: 60px;
+    border:1px solid #e4dddd;
+    background-color:#ffffff;
+    font-size: 15px;
+  }
+  .recherche #texte_recherche {
+    padding: 0 40px;
+
+  }
+
+.bouton_recherche {
+    background: #f3f4f5; 
+    margin-right: 10px;
+    padding: 7px 15px;
+    border-radius: 3px; 
+    color: rgb(119, 117, 117);
+    border: 2px solid #f3f4f5;
+    font-size: 15px;
+}
+.bouton_chance {
+    background: #f3f4f5;
+    padding: 7px 15px;
+    border-radius: 3px; 
+    color: rgb(119, 117, 117);
+    border: 2px solid #f3f4f5;
+    font-size: 15px;
+}
+input:hover[type="submit"] {
+            background: rgb(236, 236, 236);
+            color: black;
+            border: 2px solid rgb(199, 198, 198)
+        }
+footer  {
+    background: #f2f2f2;
+    position:absolute;
+    border-top: solid 2px #e4e4e4;
+    bottom: 0;
+    padding-bottom: 0;
+    width: 100%;
+}
+footer ul li {
+    display: inline;
+    color: #666666;
+    font-size: 13px;
+    padding: 13px;
+}
+footer ul {
+    float: right;
+    padding: 1px;
+}
+#footer_gauche {
+     float: left;
+}
+footer a:link {
+    color: rgb(143, 143, 143);
+  }
+footer a:visited {
+    color: rgb(143, 143, 143);
+  }
+footer a:active {
+    color: rgb(255, 0, 0);
+  }
+footer a:hover {
+    color: rgb(143, 143,143);
+    text-decoration: underline;
+}
+#gmail a:link, a:active, a:visited, a:hover {
+      color: black;
+      text-decoration: underline;
+  }
+#connexion a:visited, a:active {
+      color: rgb(255, 255, 255);
+}
+#texte_recherche {
+    background: white url(icon.jpg) left no-repeat;
+    padding-left: 15px;
+}
+input:focus, textarea {
+    outline: none !important;
+    box-shadow: 0px 0px 0px 3px rgba(214, 212, 212, 0.2);
+}
+input:hover, textarea {
+    outline: none !important;
+    box-shadow: 0px 0px 4px 4px rgba(216, 216, 216, 0.2);
+}
